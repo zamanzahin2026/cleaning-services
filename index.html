@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AuraClean | Professional Home &amp; Office Cleaning Services</title>
+  <meta name="description" content="Award-winning residential and corporate cleaning services. Vetted professionals, eco-friendly products, and transparent pricing in San Francisco.">
+  <meta name="theme-color" content="#030712">
+
+  <!-- Preconnect and Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Swiper 11 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. Topbar
+       ========================================================================= -->
+  <aside id="topbar" class="topbar" aria-label="Quick contact and social links">
+    <div class="container">
+      <div class="topbar-left">
+        <a href="mailto:hello@auraclean.com" class="topbar-item" id="topbar-email">
+          <i data-lucide="mail"></i>
+          <span>hello@auraclean.com</span>
+        </a>
+        <div class="topbar-item topbar-address" id="topbar-address">
+          <i data-lucide="map-pin"></i>
+          <span>742 Montgomery St, San Francisco, CA</span>
+        </div>
+      </div>
+      <div class="topbar-right" aria-label="Social media">
+        <a href="#" class="social-link" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </a>
+        <a href="#" class="social-link" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/></svg>
+        </a>
+        <a href="#" class="social-link" aria-label="Twitter">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        </a>
+        <a href="#" class="social-link" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- =========================================================================
+       2. Sticky Navbar
+       ========================================================================= -->
+  <header id="header-nav">
+    <nav id="navbar" class="navbar" aria-label="Main Navigation">
+      <div class="container">
+        <!-- Logo -->
+        <a href="#" class="brand-logo" id="site-logo" aria-label="AuraClean Home">
+          <div class="logo-icon-badge">
+            <i data-lucide="home"></i>
+            <i data-lucide="sparkles" class="logo-sparkle"></i>
+          </div>
+          <span class="brand-name">AuraClean</span>
+        </a>
+
+        <!-- Center Links -->
+        <div class="nav-links" id="desktop-nav-links">
+          <a href="#benefits" class="nav-link">About us</a>
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#pricing" class="nav-link">Pricing</a>
+          <a href="#testimonials" class="nav-link">Testimonial</a>
+        </div>
+
+        <!-- Right CTA & Phone -->
+        <div class="navbar-right">
+          <a href="tel:+18004829382" class="nav-phone" id="nav-phone-link">
+            <i data-lucide="phone"></i>
+            <span>+1 (800) 482-9382</span>
+          </a>
+          <a href="#contact" class="btn btn-primary nav-book-btn" id="nav-book-btn">
+            <span class="btn-roll">
+              <span class="btn-text-default">Book a service</span>
+              <span class="btn-text-hover" aria-hidden="true">Book a service</span>
+            </span>
+          </a>
+          <button class="nav-hamburger" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <i data-lucide="menu"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile Slide-Down Panel -->
+    <div class="mobile-nav-panel" id="mobile-menu" aria-label="Mobile menu">
+      <div class="mobile-nav-links">
+        <a href="#benefits" class="mobile-nav-link">About us</a>
+        <a href="#services" class="mobile-nav-link">Services</a>
+        <a href="#pricing" class="mobile-nav-link">Pricing</a>
+        <a href="#testimonials" class="mobile-nav-link">Testimonial</a>
+      </div>
+      <a href="tel:+18004829382" class="nav-phone mobile-nav-item" style="padding: 6px 0;">
+        <i data-lucide="phone"></i>
+        <span>+1 (800) 482-9382</span>
+      </a>
+      <a href="#contact" class="btn btn-primary mobile-menu-btn mobile-nav-item" style="width: 100%;">
+        <span class="btn-roll">
+          <span class="btn-text-default">Book a service</span>
+          <span class="btn-text-hover" aria-hidden="true">Book a service</span>
+        </span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         3. Hero Section (Centered with Floating Collage)
+         ========================================================================= -->
+    <section id="hero" class="hero-section" aria-labelledby="hero-title">
+      <div class="container hero-center-content">
+        <!-- Trust Chip -->
+        <div class="hero-trust-chip" id="hero-trust-pill">
+          <div class="avatar-stack">
+            <img src="assets/images/team-1.jpg" alt="Client 1" width="24" height="24">
+            <img src="assets/images/team-2.jpg" alt="Client 2" width="24" height="24">
+            <img src="assets/images/team-3.jpg" alt="Client 3" width="24" height="24">
+          </div>
+          <span>44,000+ businesses trust us</span>
+        </div>
+
+        <!-- H1 Three-Line Headline with Highlight Pill -->
+        <h1 id="hero-title" class="hero-h1 char-reveal">
+          Professional <span class="hero-highlight" id="hero-highlight-pill">spotless</span> services for every need.
+        </h1>
+
+        <!-- One Line Paragraph -->
+        <p class="hero-paragraph fade-target">
+          Elevating residential and corporate spaces with meticulous, eco-friendly cleaning tailored to your schedule.
+        </p>
+
+        <!-- CTA Row -->
+        <div class="hero-cta-row fade-target">
+          <a href="#contact" class="btn btn-primary" id="hero-book-btn">
+            <span class="btn-roll">
+              <span class="btn-text-default">Book a service</span>
+              <span class="btn-text-hover" aria-hidden="true">Book a service</span>
+            </span>
+          </a>
+          <a href="#benefits" class="btn btn-secondary" id="hero-learn-btn">Learn more</a>
+        </div>
+      </div>
+
+      <!-- Floating Collage Images (4 Corners) -->
+      <div class="hero-floating-container" id="hero-floating-box" aria-hidden="true">
+        <div class="hero-float-card hero-card-tl" data-speed="1.2">
+          <img src="assets/images/hero-1.jpg" alt="Bright modern living room freshly cleaned" fetchpriority="high" width="345" height="270">
+        </div>
+        <div class="hero-float-card hero-card-bl" data-speed="0.8">
+          <img src="assets/images/hero-2.jpg" alt="Gloved hand wiping sparkling glass surface" width="335" height="298">
+        </div>
+        <div class="hero-float-card hero-card-tr" data-speed="1.4">
+          <img src="assets/images/hero-3.jpg" alt="Mopping clean Scandinavian wooden floor" width="229" height="200">
+        </div>
+        <div class="hero-float-card hero-card-br" data-speed="0.9">
+          <img src="assets/images/hero-4.jpg" alt="Cleaner in navy uniform vacuuming stairs" width="212" height="199">
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. Benefits Section (Split Features with Image)
+         ========================================================================= -->
+    <section id="benefits" class="benefits-section" aria-labelledby="benefits-title">
+      <div class="container">
+        <div class="benefits-grid">
+          <!-- Left Column -->
+          <div class="benefits-left">
+            <div class="section-chip">
+              <i data-lucide="sparkle"></i>
+              <span>Our benefits</span>
+            </div>
+            <h2 id="benefits-title" class="section-h2 char-reveal">
+              Impeccable care and reliability for your sanctuary.
+            </h2>
+            <p class="text-body fade-target">
+              Save hours each week while creating a healthier indoor environment with our certified, insured cleaning teams.
+            </p>
+
+            <div class="features-list">
+              <div class="feature-item fade-target">
+                <div class="icon-box">
+                  <i data-lucide="shield-check"></i>
+                </div>
+                <div class="feature-content">
+                  <h3 class="feature-title">Reliable professionals</h3>
+                  <p class="feature-text">Every specialist is vetted, insured, and thoroughly background-checked for absolute safety.</p>
+                </div>
+              </div>
+
+              <div class="feature-item fade-target">
+                <div class="icon-box">
+                  <i data-lucide="leaf"></i>
+                </div>
+                <div class="feature-content">
+                  <h3 class="feature-title">Eco-friendly products</h3>
+                  <p class="feature-text">100% non-toxic, plant-based formulations that protect your children, pets, and our planet.</p>
+                </div>
+              </div>
+
+              <div class="feature-item fade-target">
+                <div class="icon-box">
+                  <i data-lucide="calendar-clock"></i>
+                </div>
+                <div class="feature-content">
+                  <h3 class="feature-title">Flexible scheduling</h3>
+                  <p class="feature-text">Effortless bookings tailored for one-time deep refreshes, weekly upkeep, or monthly turnovers.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column with Tall Image & Overlay Card -->
+          <div class="benefits-right">
+            <div class="benefits-image-wrapper" id="benefits-img-box">
+              <img src="assets/images/benefits.jpg" alt="Cleaner in white glove cleaning dark teal surface" loading="lazy" width="560" height="700">
+            </div>
+            <div class="benefits-overlay-card" id="benefits-stat-card">
+              <div class="overlay-count" data-counter="25" data-suffix="K+">25K+</div>
+              <div class="overlay-label">Trusted by thousands of homeowners across the city</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. Services Section (Dark Carousel)
+         ========================================================================= -->
+    <section id="services" class="services-section" aria-labelledby="services-title">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-header-left">
+            <div class="section-chip chip-dark">
+              <i data-lucide="layers"></i>
+              <span>Services</span>
+            </div>
+            <h2 id="services-title" class="section-h2 char-reveal">
+              Tailored cleaning solutions for every lifestyle and space.
+            </h2>
+          </div>
+          <div class="section-header-right">
+            <p class="fade-target">
+              From routine maintenance to intensive sanitization, our certified specialists ensure flawless results every single time.
+            </p>
+          </div>
+        </div>
+
+        <!-- Swiper Carousel -->
+        <div class="services-carousel-wrapper">
+          <div class="swiper services-swiper" id="services-swiper">
+            <div class="swiper-wrapper">
+              <!-- Slide 1 -->
+              <div class="swiper-slide">
+                <div class="service-card image-hover-wrapper">
+                  <div class="service-image-bg">
+                    <img src="assets/images/service-regular.jpg" alt="Regular cleaning with spray cleaner" loading="lazy" width="368" height="270">
+                  </div>
+                  <div class="service-card-gradient"></div>
+                  <div class="service-card-content">
+                    <h3 class="service-card-title">Regular cleaning</h3>
+                    <div class="service-card-arrow" aria-hidden="true">
+                      <i data-lucide="arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="swiper-slide">
+                <div class="service-card image-hover-wrapper">
+                  <div class="service-image-bg">
+                    <img src="assets/images/service-house.jpg" alt="House cleaning with modern vacuum" loading="lazy" width="368" height="270">
+                  </div>
+                  <div class="service-card-gradient"></div>
+                  <div class="service-card-content">
+                    <h3 class="service-card-title">House cleaning</h3>
+                    <div class="service-card-arrow" aria-hidden="true">
+                      <i data-lucide="arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="swiper-slide">
+                <div class="service-card image-hover-wrapper">
+                  <div class="service-image-bg">
+                    <img src="assets/images/service-move.jpg" alt="Move in move out apartment cleaning" loading="lazy" width="368" height="270">
+                  </div>
+                  <div class="service-card-gradient"></div>
+                  <div class="service-card-content">
+                    <h3 class="service-card-title">Move-in / move-out</h3>
+                    <div class="service-card-arrow" aria-hidden="true">
+                      <i data-lucide="arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 4 -->
+              <div class="swiper-slide">
+                <div class="service-card image-hover-wrapper">
+                  <div class="service-image-bg">
+                    <img src="assets/images/service-storage.jpg" alt="Removal and storage boxes cleaning" loading="lazy" width="368" height="270">
+                  </div>
+                  <div class="service-card-gradient"></div>
+                  <div class="service-card-content">
+                    <h3 class="service-card-title">Removal &amp; storage</h3>
+                    <div class="service-card-arrow" aria-hidden="true">
+                      <i data-lucide="arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 5 -->
+              <div class="swiper-slide">
+                <div class="service-card image-hover-wrapper">
+                  <div class="service-image-bg">
+                    <img src="assets/images/service-deep.jpg" alt="Deep bathroom tile scrubbing" loading="lazy" width="368" height="270">
+                  </div>
+                  <div class="service-card-gradient"></div>
+                  <div class="service-card-content">
+                    <h3 class="service-card-title">Deep cleaning</h3>
+                    <div class="service-card-arrow" aria-hidden="true">
+                      <i data-lucide="arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 6 -->
+              <div class="swiper-slide">
+                <div class="service-card image-hover-wrapper">
+                  <div class="service-image-bg">
+                    <img src="assets/images/service-eco.jpg" alt="Eco cleaning organic supplies" loading="lazy" width="368" height="270">
+                  </div>
+                  <div class="service-card-gradient"></div>
+                  <div class="service-card-content">
+                    <h3 class="service-card-title">Eco cleaning</h3>
+                    <div class="service-card-arrow" aria-hidden="true">
+                      <i data-lucide="arrow-right"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Swiper Dots -->
+            <div class="services-pagination" id="services-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6. Pricing Section (Pricing Rows)
+         ========================================================================= -->
+    <section id="pricing" class="pricing-section" aria-labelledby="pricing-title">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-header-left">
+            <div class="section-chip">
+              <i data-lucide="tag"></i>
+              <span>Transparent pricing</span>
+            </div>
+            <h2 id="pricing-title" class="section-h2 char-reveal">
+              Clear rates with no hidden fees or surprise add-ons.
+            </h2>
+          </div>
+          <div class="section-header-right">
+            <p class="fade-target">
+              Straightforward flat-rate packages designed for modern living. Flexible recurring discounts available upon request.
+            </p>
+          </div>
+        </div>
+
+        <!-- Pricing Rows -->
+        <div class="pricing-list">
+          <!-- Row 1 -->
+          <div class="pricing-row fade-target">
+            <div class="pricing-col-title">
+              <div class="icon-box">
+                <i data-lucide="brush"></i>
+              </div>
+              <h3 class="pricing-title-text">Regular cleaning</h3>
+            </div>
+            <div class="pricing-col-desc">
+              Essential surface sanitization, dusting, vacuuming, and kitchen refresh for active living spaces.
+            </div>
+            <div class="pricing-col-price">$120</div>
+            <div class="pricing-col-btn">
+              <a href="#contact" class="btn btn-secondary pricing-btn">
+                <span class="btn-roll">
+                  <span class="btn-text-default">Book a service</span>
+                  <span class="btn-text-hover" aria-hidden="true">Book a service</span>
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="pricing-row fade-target">
+            <div class="pricing-col-title">
+              <div class="icon-box">
+                <i data-lucide="droplets"></i>
+              </div>
+              <h3 class="pricing-title-text">Deep clean</h3>
+            </div>
+            <div class="pricing-col-desc">
+              Intensive scrub focusing on appliance interiors, tile grout lines, baseboards, and neglected areas.
+            </div>
+            <div class="pricing-col-price">$149</div>
+            <div class="pricing-col-btn">
+              <a href="#contact" class="btn btn-secondary pricing-btn">
+                <span class="btn-roll">
+                  <span class="btn-text-default">Book a service</span>
+                  <span class="btn-text-hover" aria-hidden="true">Book a service</span>
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Row 3 -->
+          <div class="pricing-row fade-target">
+            <div class="pricing-col-title">
+              <div class="icon-box">
+                <i data-lucide="shield-check"></i>
+              </div>
+              <h3 class="pricing-title-text">Weekly refresh</h3>
+            </div>
+            <div class="pricing-col-desc">
+              Scheduled recurrent upkeep to ensure bathrooms, kitchens, and floors remain permanently spotless.
+            </div>
+            <div class="pricing-col-price">$129</div>
+            <div class="pricing-col-btn">
+              <a href="#contact" class="btn btn-secondary pricing-btn">
+                <span class="btn-roll">
+                  <span class="btn-text-default">Book a service</span>
+                  <span class="btn-text-hover" aria-hidden="true">Book a service</span>
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Row 4 -->
+          <div class="pricing-row fade-target">
+            <div class="pricing-col-title">
+              <div class="icon-box">
+                <i data-lucide="wand-sparkles"></i>
+              </div>
+              <h3 class="pricing-title-text">Deluxe clean</h3>
+            </div>
+            <div class="pricing-col-desc">
+              Whole-residence restoration featuring organic steam-sterilization and complete window detailing.
+            </div>
+            <div class="pricing-col-price">$219</div>
+            <div class="pricing-col-btn">
+              <a href="#contact" class="btn btn-secondary pricing-btn">
+                <span class="btn-roll">
+                  <span class="btn-text-default">Book a service</span>
+                  <span class="btn-text-hover" aria-hidden="true">Book a service</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         7. Team Section (Team Grid)
+         ========================================================================= -->
+    <section id="team" class="team-section" aria-labelledby="team-title">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-header-left">
+            <div class="section-chip">
+              <i data-lucide="users"></i>
+              <span>Our team</span>
+            </div>
+            <h2 id="team-title" class="section-h2 char-reveal">
+              Experienced hands for a spotless, welcoming home.
+            </h2>
+          </div>
+          <div class="section-header-right">
+            <p class="fade-target">
+              Careful, certified professionals who take genuine pride in treating your property with utmost respect.
+            </p>
+          </div>
+        </div>
+
+        <!-- Team 4-Column Grid -->
+        <div class="team-grid">
+          <!-- Member 1 -->
+          <div class="team-card fade-target">
+            <div class="team-image-wrapper image-hover-wrapper">
+              <img src="assets/images/team-1.jpg" alt="Marcus Vance - Senior cleaning specialist" loading="lazy" width="302" height="362">
+              <div class="team-social-overlay">
+                <a href="#" class="team-social-icon" aria-label="Instagram">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/></svg>
+                </a>
+                <a href="#" class="team-social-icon" aria-label="Twitter">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                </a>
+                <a href="#" class="team-social-icon" aria-label="LinkedIn">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+              </div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name">Marcus Vance</h3>
+              <p class="team-role">Senior cleaning specialist</p>
+            </div>
+          </div>
+
+          <!-- Member 2 -->
+          <div class="team-card fade-target">
+            <div class="team-image-wrapper image-hover-wrapper">
+              <img src="assets/images/team-2.jpg" alt="Elena Rostova - Deep cleaning expert" loading="lazy" width="302" height="362">
+              <div class="team-social-overlay">
+                <a href="#" class="team-social-icon" aria-label="Instagram">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/></svg>
+                </a>
+                <a href="#" class="team-social-icon" aria-label="Twitter">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                </a>
+                <a href="#" class="team-social-icon" aria-label="LinkedIn">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+              </div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name">Elena Rostova</h3>
+              <p class="team-role">Deep cleaning expert</p>
+            </div>
+          </div>
+
+          <!-- Member 3 -->
+          <div class="team-card fade-target">
+            <div class="team-image-wrapper image-hover-wrapper">
+              <img src="assets/images/team-3.jpg" alt="Julian Morales - Residential specialist" loading="lazy" width="302" height="362">
+              <div class="team-social-overlay">
+                <a href="#" class="team-social-icon" aria-label="Instagram">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/></svg>
+                </a>
+                <a href="#" class="team-social-icon" aria-label="Twitter">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                </a>
+                <a href="#" class="team-social-icon" aria-label="LinkedIn">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+              </div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name">Julian Morales</h3>
+              <p class="team-role">Residential specialist</p>
+            </div>
+          </div>
+
+          <!-- Member 4 -->
+          <div class="team-card fade-target">
+            <div class="team-image-wrapper image-hover-wrapper">
+              <img src="assets/images/team-4.jpg" alt="Sarah Jenkins - Move-out cleaning expert" loading="lazy" width="302" height="362">
+              <div class="team-social-overlay">
+                <a href="#" class="team-social-icon" aria-label="Instagram">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/></svg>
+                </a>
+                <a href="#" class="team-social-icon" aria-label="Twitter">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                </a>
+                <a href="#" class="team-social-icon" aria-label="LinkedIn">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+              </div>
+            </div>
+            <div class="team-info">
+              <h3 class="team-name">Sarah Jenkins</h3>
+              <p class="team-role">Move-out cleaning expert</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         8. Testimonials Section (Testimonial Carousel)
+         ========================================================================= -->
+    <section id="testimonials" class="testimonials-section" aria-labelledby="testimonials-title">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-header-left">
+            <div class="section-chip">
+              <i data-lucide="message-square"></i>
+              <span>Testimonial</span>
+            </div>
+            <h2 id="testimonials-title" class="section-h2 char-reveal">
+              Hear from the people we clean for every week.
+            </h2>
+          </div>
+          <div class="section-header-right">
+            <p class="fade-target">
+              Read how thousands of busy homeowners and office managers regain peace of mind through our pristine standards.
+            </p>
+          </div>
+        </div>
+
+        <!-- Testimonial Swiper -->
+        <div class="swiper testimonials-swiper" id="testimonials-swiper">
+          <div class="swiper-wrapper">
+            <!-- Testimonial 1 -->
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-top">
+                  <i data-lucide="quote" class="quote-icon"></i>
+                  <p class="testimonial-quote">
+                    "AuraClean transformed our apartment after a busy renovation. They tackled every corner with surgical attention to detail and pure professionalism."
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <span>Claire Sterling · Tech Executive</span>
+                  <div class="rating-stars" aria-label="5 out of 5 stars">
+                    <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-top">
+                  <i data-lucide="quote" class="quote-icon"></i>
+                  <p class="testimonial-quote">
+                    "Their weekly service is like clockwork. The team is discreet, thorough, and uses plant-based formulas that keep our kids and golden retriever safe."
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <span>David Chen · Architect</span>
+                  <div class="rating-stars" aria-label="5 out of 5 stars">
+                    <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-top">
+                  <i data-lucide="quote" class="quote-icon"></i>
+                  <p class="testimonial-quote">
+                    "We manage four creative studio offices in the Financial District. AuraClean keeps our conference rooms and communal kitchens impeccably sharp."
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <span>Amara Walsh · Creative Director</span>
+                  <div class="rating-stars" aria-label="5 out of 5 stars">
+                    <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 4 -->
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-top">
+                  <i data-lucide="quote" class="quote-icon"></i>
+                  <p class="testimonial-quote">
+                    "Moving out of our condo was chaotic until AuraClean handled the turnover clean. We received our full security deposit back without a single question."
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <span>Jonathan Pike · Homeowner</span>
+                  <div class="rating-stars" aria-label="5 out of 5 stars">
+                    <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 5 -->
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-top">
+                  <i data-lucide="quote" class="quote-icon"></i>
+                  <p class="testimonial-quote">
+                    "Finding a cleaning company you can hand your keys to with complete peace of mind is priceless. Their bonded staff are simply stellar."
+                  </p>
+                </div>
+                <div class="testimonial-author">
+                  <span>Nathalie Roux · Designer</span>
+                  <div class="rating-stars" aria-label="5 out of 5 stars">
+                    <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Thin 2px Progress Bar -->
+          <div class="testimonials-progress-track">
+            <div class="testimonials-progress-bar" id="testimonials-progress-bar"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         9. Routine CTA with Image Marquee
+         ========================================================================= -->
+    <section id="routine-cta" class="routine-cta-section" aria-labelledby="routine-cta-title">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-header-left">
+            <h2 id="routine-cta-title" class="section-h2 char-reveal">
+              Cleaning that effortlessly fits around your daily routine.
+            </h2>
+          </div>
+          <div class="section-header-right">
+            <p class="fade-target">
+              From speedy 60-minute touch-ups to comprehensive whole-house restorations, book the frequency that suits your lifestyle.
+            </p>
+            <div class="hero-cta-row" style="margin-top: 8px;">
+              <a href="#contact" class="btn btn-primary">
+                <span class="btn-roll">
+                  <span class="btn-text-default">Book a service</span>
+                  <span class="btn-text-hover" aria-hidden="true">Book a service</span>
+                </span>
+              </a>
+              <a href="#services" class="btn btn-secondary">Explore services</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Marquee Strip -->
+      <div class="marquee-container" id="marquee-section">
+        <div class="marquee-track" id="marquee-track">
+          <!-- Set 1 -->
+          <div class="marquee-item w-md"><img src="assets/images/marquee-1.jpg" alt="Cleaner vacuuming sofa" loading="lazy" width="380" height="270"></div>
+          <div class="marquee-item w-sm"><img src="assets/images/marquee-2.jpg" alt="Upright vacuum on white rug" loading="lazy" width="300" height="270"></div>
+          <div class="marquee-item w-lg"><img src="assets/images/marquee-3.jpg" alt="Gloved hand spraying kitchen sink" loading="lazy" width="460" height="270"></div>
+          <div class="marquee-item w-md"><img src="assets/images/marquee-4.jpg" alt="Polishing large window with squeegee" loading="lazy" width="380" height="270"></div>
+          <div class="marquee-item w-lg"><img src="assets/images/marquee-5.jpg" alt="Neatly made bed in clean bedroom" loading="lazy" width="460" height="270"></div>
+          <!-- Set 2 (Duplicate for continuous loop) -->
+          <div class="marquee-item w-md" aria-hidden="true"><img src="assets/images/marquee-1.jpg" alt="" loading="lazy" width="380" height="270"></div>
+          <div class="marquee-item w-sm" aria-hidden="true"><img src="assets/images/marquee-2.jpg" alt="" loading="lazy" width="300" height="270"></div>
+          <div class="marquee-item w-lg" aria-hidden="true"><img src="assets/images/marquee-3.jpg" alt="" loading="lazy" width="460" height="270"></div>
+          <div class="marquee-item w-md" aria-hidden="true"><img src="assets/images/marquee-4.jpg" alt="" loading="lazy" width="380" height="270"></div>
+          <div class="marquee-item w-lg" aria-hidden="true"><img src="assets/images/marquee-5.jpg" alt="" loading="lazy" width="460" height="270"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         10. Before & After Section (Interactive Comparison Slider)
+         ========================================================================= -->
+    <section id="before-after" class="before-after-section" aria-labelledby="before-after-title">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-header-left">
+            <h2 id="before-after-title" class="section-h2 char-reveal">
+              Remarkable transformations in our before &amp; after gallery.
+            </h2>
+          </div>
+          <div class="section-header-right">
+            <p class="fade-target">
+              Drag the interactive sliders to reveal how our precision techniques turn heavily cluttered zones into pristine sanctuaries.
+            </p>
+          </div>
+        </div>
+
+        <!-- Before & After Swiper -->
+        <div class="swiper before-after-swiper" id="ba-swiper">
+          <div class="swiper-wrapper">
+            <!-- Pair 1: Corporate Office -->
+            <div class="swiper-slide">
+              <div class="comparison-card" role="slider" tabindex="0" aria-label="Office before and after comparison" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <span class="comparison-badge comparison-badge-before">Before</span>
+                <span class="comparison-badge comparison-badge-after">After</span>
+                <img src="assets/images/ba-1-after.jpg" alt="Spotless corporate office floor and desks" class="comparison-image comparison-after" loading="lazy" width="960" height="600">
+                <img src="assets/images/ba-1-before.jpg" alt="Cluttered corporate office with papers on floor" class="comparison-image comparison-before" loading="lazy" width="960" height="600">
+                <div class="comparison-divider">
+                  <div class="comparison-handle" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m8 7-5 5 5 5"/><path d="m16 7 5 5-5 5"/></svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pair 2: Living Room Corner -->
+            <div class="swiper-slide">
+              <div class="comparison-card" role="slider" tabindex="0" aria-label="Living room before and after comparison" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <span class="comparison-badge comparison-badge-before">Before</span>
+                <span class="comparison-badge comparison-badge-after">After</span>
+                <img src="assets/images/ba-2-after.jpg" alt="Tidy living room with plants and folded throw" class="comparison-image comparison-after" loading="lazy" width="960" height="600">
+                <img src="assets/images/ba-2-before.jpg" alt="Cluttered living room corner with laundry on floor" class="comparison-image comparison-before" loading="lazy" width="960" height="600">
+                <div class="comparison-divider">
+                  <div class="comparison-handle" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m8 7-5 5 5 5"/><path d="m16 7 5 5-5 5"/></svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pair 3: Kitchen Stove & Backsplash -->
+            <div class="swiper-slide">
+              <div class="comparison-card" role="slider" tabindex="0" aria-label="Kitchen cooking hob before and after comparison" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <span class="comparison-badge comparison-badge-before">Before</span>
+                <span class="comparison-badge comparison-badge-after">After</span>
+                <img src="assets/images/ba-3-after.jpg" alt="Gleaming clean kitchen hob and backsplash" class="comparison-image comparison-after" loading="lazy" width="960" height="600">
+                <img src="assets/images/ba-3-before.jpg" alt="Greasy stained kitchen cooking hob" class="comparison-image comparison-before" loading="lazy" width="960" height="600">
+                <div class="comparison-divider">
+                  <div class="comparison-handle" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m8 7-5 5 5 5"/><path d="m16 7 5 5-5 5"/></svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Dark Translucent Pill Pagination Inside Bottom-Right -->
+          <div class="ba-pagination-pill" id="ba-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         11. Contact / Booking Form Section
+         ========================================================================= -->
+    <section id="contact" class="contact-section" aria-labelledby="contact-title">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="section-header-left">
+            <h2 id="contact-title" class="section-h2 char-reveal">
+              Book your service with trusted local cleaning experts.
+            </h2>
+          </div>
+          <div class="section-header-right">
+            <p class="fade-target">
+              Send your request in under a minute. Our team will verify your details and confirm your preferred slot promptly.
+            </p>
+          </div>
+        </div>
+
+        <!-- Outer 2-Column Card Wrapper -->
+        <div class="contact-card-wrapper fade-target">
+          <!-- Left Info Card -->
+          <div class="contact-info-card">
+            <div class="info-card-top">
+              <h3 class="info-card-title">Booking information</h3>
+              <p class="info-card-subtitle">
+                Instant quote assistance, flexible scheduling, and dedicated service managers ready to assist you anytime.
+              </p>
+            </div>
+
+            <div class="info-items-list">
+              <div class="info-item">
+                <i data-lucide="phone"></i>
+                <div>
+                  <div>+1 (800) 482-9382</div>
+                  <div style="color: var(--white-80); font-size: 13px;">+1 (800) 482-9383</div>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <i data-lucide="mail"></i>
+                <div>hello@auraclean.com</div>
+              </div>
+
+              <div class="info-item">
+                <i data-lucide="map-pin"></i>
+                <div>742 Montgomery St, San Francisco, CA 94111</div>
+              </div>
+            </div>
+
+            <!-- Drifting blurred decorative orb -->
+            <div class="drifting-circle" aria-hidden="true"></div>
+          </div>
+
+          <!-- Right Booking Form -->
+          <div class="contact-form-side">
+            <form id="booking-form" class="booking-form" novalidate>
+              <div class="form-grid-2">
+                <!-- Full name -->
+                <div class="form-group" id="group-fullname">
+                  <label for="fullname" class="form-label">Full name *</label>
+                  <input type="text" id="fullname" name="fullname" class="form-control" placeholder="Enter your full name" required>
+                  <span class="form-error" id="err-fullname" aria-live="polite">Please enter your name</span>
+                </div>
+
+                <!-- Email -->
+                <div class="form-group" id="group-email">
+                  <label for="email" class="form-label">Email *</label>
+                  <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+                  <span class="form-error" id="err-email" aria-live="polite">Please enter a valid email</span>
+                </div>
+
+                <!-- Phone -->
+                <div class="form-group" id="group-phone">
+                  <label for="phone" class="form-label">Phone no.</label>
+                  <input type="tel" id="phone" name="phone" class="form-control" placeholder="Enter your phone number">
+                </div>
+
+                <!-- Service selection -->
+                <div class="form-group" id="group-service">
+                  <label for="service-select" class="form-label">Services</label>
+                  <select id="service-select" name="service" class="form-control">
+                    <option value="Regular cleaning">Regular cleaning</option>
+                    <option value="House cleaning">House cleaning</option>
+                    <option value="Move in / move out">Move in / move out</option>
+                    <option value="Removal &amp; storage">Removal &amp; storage</option>
+                    <option value="Deep cleaning">Deep cleaning</option>
+                    <option value="Eco cleaning">Eco cleaning</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Message -->
+              <div class="form-group" id="group-message">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" class="form-control" placeholder="Tell us about your home or office space, special requests, or preferred times..."></textarea>
+              </div>
+
+              <!-- Submit Button -->
+              <div>
+                <button type="submit" class="btn btn-primary submit-btn" id="submit-booking-btn">
+                  <span class="btn-roll">
+                    <span class="btn-text-default">Book your service</span>
+                    <span class="btn-text-hover" aria-hidden="true">Book your service</span>
+                  </span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       12. Footer
+       ========================================================================= -->
+  <footer id="footer" class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Column -->
+        <div class="footer-col-brand fade-target">
+          <a href="#" class="brand-logo" aria-label="AuraClean Home">
+            <div class="logo-icon-badge">
+              <i data-lucide="home"></i>
+              <i data-lucide="sparkles" class="logo-sparkle"></i>
+            </div>
+            <span class="brand-name">AuraClean</span>
+          </a>
+          <p class="footer-mission">
+            Setting the gold standard in premium, eco-conscious cleaning for modern homes and forward-thinking corporate workplaces.
+          </p>
+          <div class="footer-social-row">
+            <a href="#" class="social-square-btn" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="#" class="social-square-btn" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor"/></svg>
+            </a>
+            <a href="#" class="social-square-btn" aria-label="Twitter">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" class="social-square-btn" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Sitemap Column -->
+        <div class="fade-target">
+          <h4 class="footer-col-title">Sitemap</h4>
+          <ul class="footer-links-list">
+            <li><a href="#contact" class="footer-link">Book a service</a></li>
+            <li><a href="#benefits" class="footer-link">About us</a></li>
+            <li><a href="#team" class="footer-link">Team</a></li>
+            <li><a href="#pricing" class="footer-link">Pricing</a></li>
+            <li><a href="#testimonials" class="footer-link">Testimonial</a></li>
+          </ul>
+        </div>
+
+        <!-- Other Pages Column -->
+        <div class="fade-target">
+          <h4 class="footer-col-title">Other pages</h4>
+          <ul class="footer-links-list">
+            <li><a href="#" class="footer-link">Error 404</a></li>
+            <li><a href="#" class="footer-link">Terms &amp; conditions</a></li>
+            <li><a href="#" class="footer-link">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Details Column -->
+        <div class="fade-target">
+          <h4 class="footer-col-title">Contact details</h4>
+          <ul class="footer-links-list">
+            <li class="footer-contact-item">
+              <i data-lucide="map-pin"></i>
+              <span>742 Montgomery St, San Francisco, CA 94111</span>
+            </li>
+            <li class="footer-contact-item">
+              <i data-lucide="mail"></i>
+              <span>hello@auraclean.com</span>
+            </li>
+            <li class="footer-contact-item">
+              <i data-lucide="phone"></i>
+              <span>+1 (800) 482-9382</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-divider"></div>
+
+      <div class="footer-bottom-row">
+        <div>&copy; 2026 AuraClean. All rights reserved.</div>
+        <div class="footer-bottom-links">
+          <a href="#" class="footer-link">Privacy Policy</a>
+          <a href="#" class="footer-link">Terms of Service</a>
+          <a href="#" class="footer-link">Cookie Settings</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Submission Toast Notice -->
+  <div id="toast-notice" class="toast-notice" role="status" aria-live="polite">
+    <i data-lucide="check-circle" style="color: #10B981; width: 20px; height: 20px;"></i>
+    <span>Thank you! Your booking request has been submitted.</span>
+  </div>
+
+  <!-- =========================================================================
+       Scripts: GSAP 3, ScrollTrigger, Lenis, Swiper 11, Lucide, Main App
+       ========================================================================= -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="main.js"></script>
+</body>
+</html>
